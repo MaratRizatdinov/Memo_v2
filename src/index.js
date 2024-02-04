@@ -7,7 +7,7 @@ const state = {
 }
 
 export const appRouter = (state) => {
-    if (state.page == 'selectPage') {
+    if (state.page === 'selectPage') {
         selectPage(state)
     } else if (state.page === 'gamePage') {
         gamePage(state)

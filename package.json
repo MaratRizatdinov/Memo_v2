@@ -9,7 +9,7 @@
         "lint:js": "eslint ./src/**/*.js",
         "lint:css": "stylelint  ./**/*.css --fix",
         "prepare": "husky",
-        "lint": "npm run lint:js && npm run lint.css"
+        "lint": "npm run lint:js && npm run lint:css"
     },
     "keywords": [],
     "author": "",
