@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "strict": true, // Включает все жесткие проверки типов
+        "outDir": "./dist/",
+        "noImplicitAny": true,
+        "module": "es6",
+        "target": "es6",
+        "allowJs": true,
+        // "sourceMap": true,
+        "moduleResolution": "node",
+        "allowSyntheticDefaultImports": true,
+        "types": ["node", "jest"]
+    },
+    "include": ["src/**/*"],
+    "exclude": ["cypress.config.ts", "node_modules", "cypress"]
+}

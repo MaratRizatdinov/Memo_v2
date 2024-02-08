@@ -13,13 +13,17 @@ body {
     font-family: StratosSkyeng, sans-serif;
     display: flex;
     justify-content: center;
-    align-items: center;
     height: 100vh;
+}
+
+#app {
+    position: relative;
 }
 
 .select {
     width: 480px;
     height: 459px;
+    margin-top: 160px;
     background-color: #c2f5ff;
     border-radius: 12px;
     display: flex;
@@ -88,4 +92,175 @@ body {
     background-color: #00c2ff;
     border: 1px solid #00c2ff;
     color: #fff;
+}
+
+.game__container {
+    margin-top: 52px;
+    padding-left: 25px;
+    padding-right: 25px;
+    min-width: 1024px;
+}
+
+.game__header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.game__timer {
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 72px;
+    letter-spacing: 0;
+    text-align: left;
+    color: #fff;
+    position: relative;
+}
+
+.game__button {
+    width: 246px;
+    background-color: #7ac100;
+    height: 50px;
+    border-radius: 12px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.game__cards {
+    display: grid;
+    width: auto;
+    justify-content: center;
+    grid-template-columns: repeat(9, 95px);
+    gap: 20px 15px;
+    margin-top: 50px;
+}
+
+.game__card {
+    width: 95px;
+    height: 133px;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+.game__timertitle {
+    position: absolute;
+    display: flex;
+    justify-content: end;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    gap: 58px;
+    top: -20px;
+    left: 39px;
+}
+
+.card__close {
+    background-image: url('../../static/images/рубашка.png');
+}
+
+.card__open {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card__center {
+    align-self: center;
+}
+
+.card__bottom {
+    align-self: end;
+    transform: rotate(180deg);
+}
+
+.card__value {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0;
+    text-align: left;
+}
+
+.card__suit {
+    height: 6px;
+}
+
+.card__top,
+.card__bottom {
+    display: flex;
+    flex-direction: column;
+    width: 25px;
+    align-items: center;
+}
+
+.modal {
+    width: 480px;
+    height: 459px;
+    margin-top: 160px;
+    background-color: #c2f5ff;
+    border-radius: 12px;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 30px;
+    left: 295px;
+    opacity: 1;
+    display: flex;
+}
+
+.modal__img {
+    margin-top: 32px;
+    width: 96px;
+    height: 96px;
+}
+
+.modal__title {
+    margin-top: 15px;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: left;
+    color: #004980;
+}
+
+.modal__timetitle {
+    margin-top: 15px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+}
+
+.modal__time {
+    margin-top: 15px;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 72px;
+    text-align: left;
+}
+
+.modal__button {
+    margin-top: 35px;
+    width: 246px;
+    background-color: #7ac100;
+    height: 50px;
+    border-radius: 12px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
