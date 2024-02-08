@@ -69,6 +69,7 @@ body {
     line-height: 72px;
     letter-spacing: 0;
     text-align: center;
+    cursor: pointer;
 }
 
 .select__button {
@@ -86,6 +87,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 .select input[type='radio']:checked + label {
@@ -132,6 +134,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 .game__cards {
@@ -148,6 +151,7 @@ body {
     height: 133px;
     border-radius: 4px;
     background-color: #fff;
+    cursor: pointer;
 }
 
 .game__timertitle {
@@ -263,4 +267,5 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }

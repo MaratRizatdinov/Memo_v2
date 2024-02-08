@@ -24,9 +24,9 @@ const state: State = {
     page: 'selectPage',
     gameLevel: 1,
     gameParams: [
-        { id: 1, columns: 3, cards: 6, timeOut: 2000 },
-        { id: 2, columns: 4, cards: 12, timeOut: 2000 },
-        { id: 3, columns: 6, cards: 18, timeOut: 2000 },
+        { id: 1, columns: 3, cards: 6, timeOut: 5000 },
+        { id: 2, columns: 4, cards: 12, timeOut: 5000 },
+        { id: 3, columns: 6, cards: 18, timeOut: 5000 },
         { id: 4, columns: 9, cards: 36, timeOut: 0 },
     ],
     get gameColumns() {
