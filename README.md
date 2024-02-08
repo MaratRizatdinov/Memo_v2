@@ -5,7 +5,9 @@
 
 ## Деплой проекта
 
-    Проект задеплоен на платформе Netlify. Адрес : https://memo-cardgame.netlify.app
+    Проект задеплоен на платформе Netlify: 
+    
+    https://memo-cardgame.netlify.app
 
 ## Особенности
 
